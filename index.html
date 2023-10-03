@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Registrasi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Form Registrasi Mahasiswa</h1>
+        <form id="registrationForm">
+            <div>
+                <label for="nama">Nama Mahasiswa:</label>
+                <input type="text" id="nama" name="nama" autocomplete="off">
+                <div id="namaSuggestion"></div>
+            </div>
+
+            <div>
+                <label for="nim">NIM:</label>
+                <input type="text" id="nim" name="nim">
+            </div>
+
+            <div>
+                <label for="matkul">Mata Kuliah:</label>
+                <input type="text" id="matkul" name="matkul">
+            </div>
+
+            <div>
+                <label for="dosen">Dosen:</label>
+                <input type="text" id="dosen" name="dosen">
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
